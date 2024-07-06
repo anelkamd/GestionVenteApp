@@ -55,5 +55,11 @@ namespace GestionVenteApp
                 MessageBox.Show("Connexion a echoue...");
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Apropot frm = new Apropot();
+            frm.Show();
+        }
     }
 }

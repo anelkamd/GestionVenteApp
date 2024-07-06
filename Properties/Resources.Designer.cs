@@ -93,6 +93,16 @@ namespace GestionVenteApp.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _359827954_2256759318046778_3421045320709513352_n {
+            get {
+                object obj = ResourceManager.GetObject("359827954_2256759318046778_3421045320709513352_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8f0d554ab55becafc1f22c80f11b53f5 {
             get {
                 object obj = ResourceManager.GetObject("8f0d554ab55becafc1f22c80f11b53f5", resourceCulture);
@@ -123,9 +133,59 @@ namespace GestionVenteApp.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("images__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("images-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1396933001_612x612_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1396933001-612x612-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap linkedin_black_logo_icon_147114 {
+            get {
+                object obj = ResourceManager.GetObject("linkedin_black_logo_icon_147114", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Paomedia_Small_N_Flat_Sign_left_1024 {
             get {
                 object obj = ResourceManager.GetObject("Paomedia-Small-N-Flat-Sign-left.1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap social_16065963 {
+            get {
+                object obj = ResourceManager.GetObject("social_16065963", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

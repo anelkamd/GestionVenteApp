@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="2099058" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2099058.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="8f0d554ab55becafc1f22c80f11b53f5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8f0d554ab55becafc1f22c80f11b53f5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,16 +127,34 @@
   <data name="27f7874e01827cef4f45ca837550f0a7-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\27f7874e01827cef4f45ca837550f0a7-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="avatar-default-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatar-default-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="359827954_2256759318046778_3421045320709513352_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\359827954_2256759318046778_3421045320709513352_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paomedia-Small-N-Flat-Sign-left.1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paomedia-Small-N-Flat-Sign-left.1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Image1-pvtduabxxu6kph1o1tzr790nmig8iz1fs1a95t818y" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Image1-pvtduabxxu6kph1o1tzr790nmig8iz1fs1a95t818y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="avatar-default-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar-default-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1827504" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1827504.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Paomedia-Small-N-Flat-Sign-left.1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Paomedia-Small-N-Flat-Sign-left.1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2099058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2099058.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linkedin_black_logo_icon_147114" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linkedin_black_logo_icon_147114.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="social_16065963" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\social_16065963.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1396933001-612x612-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1396933001-612x612-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

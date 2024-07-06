@@ -64,3 +64,5 @@ C:\Users\Anelka MD\Documents\GestionVenteApp\bin\Debug\net8.0-windows\runtimes\w
 C:\Users\Anelka MD\Documents\GestionVenteApp\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.csproj.AssemblyReference.cache
 C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionV.1A7A41D2.Up2Date
+C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.Apropot.resources
+C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.sourcelink.json

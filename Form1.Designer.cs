@@ -79,8 +79,9 @@
             button5.Name = "button5";
             button5.Size = new Size(210, 50);
             button5.TabIndex = 1;
-            button5.Text = "A Propot";
+            button5.Text = "A Propos";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -182,7 +183,7 @@
             button6.Name = "button6";
             button6.Size = new Size(218, 36);
             button6.TabIndex = 10;
-            button6.Text = "Explorez ---->";
+            button6.Text = "Explorez ->";
             button6.UseVisualStyleBackColor = false;
             // 
             // Form1

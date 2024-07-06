@@ -4,6 +4,9 @@
     <Compile Update="Achat.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Apropot.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Article.cs">
       <SubType>Form</SubType>
     </Compile>
