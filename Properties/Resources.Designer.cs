@@ -63,6 +63,16 @@ namespace GestionVenteApp.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0_N1fmHtI8gmkH_2Vu_1 {
+            get {
+                object obj = ResourceManager.GetObject("0_N1fmHtI8gmkH_2Vu 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1827504 {
             get {
                 object obj = ResourceManager.GetObject("1827504", resourceCulture);
@@ -123,6 +133,26 @@ namespace GestionVenteApp.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap e29f9af1680d9c079c05b4e09ce59d8f_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("e29f9af1680d9c079c05b4e09ce59d8f-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fichier_10_4xweka {
+            get {
+                object obj = ResourceManager.GetObject("Fichier 10@4xweka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Image1_pvtduabxxu6kph1o1tzr790nmig8iz1fs1a95t818y {
             get {
                 object obj = ResourceManager.GetObject("Image1-pvtduabxxu6kph1o1tzr790nmig8iz1fs1a95t818y", resourceCulture);
@@ -153,6 +183,16 @@ namespace GestionVenteApp.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images_removebg_preview_1 {
+            get {
+                object obj = ResourceManager.GetObject("images-removebg-preview 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1396933001_612x612_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1396933001-612x612-removebg-preview", resourceCulture);
@@ -173,9 +213,29 @@ namespace GestionVenteApp.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo_facebook_transparent_1 {
+            get {
+                object obj = ResourceManager.GetObject("logo-facebook-transparent 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Paomedia_Small_N_Flat_Sign_left_1024 {
             get {
                 object obj = ResourceManager.GetObject("Paomedia-Small-N-Flat-Sign-left.1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pinterest_1 {
+            get {
+                object obj = ResourceManager.GetObject("pinterest 1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

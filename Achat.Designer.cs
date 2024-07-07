@@ -43,6 +43,8 @@
             button1 = new Button();
             label7 = new Label();
             pictureBox1 = new PictureBox();
+            panel1 = new Panel();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -60,7 +62,7 @@
             // 
             dateTimePicker1.Location = new Point(110, 373);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(410, 31);
+            dateTimePicker1.Size = new Size(435, 31);
             dateTimePicker1.TabIndex = 3;
             // 
             // label2
@@ -99,28 +101,28 @@
             // 
             textBox1.Location = new Point(178, 160);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(342, 31);
+            textBox1.Size = new Size(367, 31);
             textBox1.TabIndex = 7;
             // 
             // textBox2
             // 
             textBox2.Location = new Point(181, 212);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(339, 31);
+            textBox2.Size = new Size(364, 31);
             textBox2.TabIndex = 8;
             // 
             // textBox3
             // 
             textBox3.Location = new Point(184, 270);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(336, 31);
+            textBox3.Size = new Size(361, 31);
             textBox3.TabIndex = 9;
             // 
             // textBox4
             // 
             textBox4.Location = new Point(184, 101);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(336, 31);
+            textBox4.Size = new Size(361, 31);
             textBox4.TabIndex = 10;
             textBox4.TextChanged += textBox4_TextChanged;
             // 
@@ -138,7 +140,7 @@
             // 
             textBox5.Location = new Point(162, 317);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(358, 31);
+            textBox5.Size = new Size(383, 31);
             textBox5.TabIndex = 12;
             // 
             // label6
@@ -154,6 +156,7 @@
             // button1
             // 
             button1.BackColor = Color.DeepSkyBlue;
+            button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Poppins Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
             button1.Location = new Point(32, 436);
@@ -175,6 +178,7 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Cursor = Cursors.Hand;
             pictureBox1.Image = Properties.Resources.Paomedia_Small_N_Flat_Sign_left_1024;
             pictureBox1.Location = new Point(32, 30);
             pictureBox1.Name = "pictureBox1";
@@ -183,11 +187,34 @@
             pictureBox1.TabIndex = 16;
             pictureBox1.TabStop = false;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.DeepSkyBlue;
+            panel1.Location = new Point(581, -2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(300, 525);
+            panel1.TabIndex = 17;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Red;
+            button2.Cursor = Cursors.Hand;
+            button2.Font = new Font("Poppins Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(228, 436);
+            button2.Name = "button2";
+            button2.Size = new Size(179, 53);
+            button2.TabIndex = 18;
+            button2.Text = "Annuler l'Achat";
+            button2.UseVisualStyleBackColor = false;
+            // 
             // Achat
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 519);
+            Controls.Add(button2);
+            Controls.Add(panel1);
             Controls.Add(pictureBox1);
             Controls.Add(label7);
             Controls.Add(button1);
@@ -228,5 +255,7 @@
         private Button button1;
         private Label label7;
         private PictureBox pictureBox1;
+        private Panel panel1;
+        private Button button2;
     }
 }

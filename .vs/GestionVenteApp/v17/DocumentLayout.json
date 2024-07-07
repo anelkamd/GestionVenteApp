@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\achat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|solutionrelative:achat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|solutionrelative:client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|solutionrelative:article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\apropot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\mes classe\\achat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|solutionrelative:mes classe\\achat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC60CEBF-6EDB-4001-A123-9428667C37B8}|GestionVenteApp.csproj|c:\\users\\anelka md\\documents\\gestionventeapp\\mes classe\\dataacces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +46,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Apropot.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Apropot.cs",
-              "RelativeDocumentMoniker": "Apropot.cs",
-              "ToolTip": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Apropot.cs [Conception]",
-              "RelativeToolTip": "Apropot.cs [Conception]",
+              "DocumentIndex": 2,
+              "Title": "Client.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Client.cs",
+              "RelativeDocumentMoniker": "Client.cs",
+              "ToolTip": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Client.cs [Conception]",
+              "RelativeToolTip": "Client.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T08:15:20.279Z",
+              "WhenOpened": "2024-07-07T15:40:42.443Z",
               "EditorCaption": " [Conception]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Achat.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Achat.cs",
+              "RelativeDocumentMoniker": "Achat.cs",
+              "ToolTip": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Achat.cs [Conception]",
+              "RelativeToolTip": "Achat.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:01:23.999Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Article.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Article.cs",
+              "RelativeDocumentMoniker": "Article.cs",
+              "ToolTip": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Article.cs [Conception]",
+              "RelativeToolTip": "Article.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T14:40:06.931Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -63,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DataAcces.cs",
               "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Mes Classe\\DataAcces.cs",
               "RelativeDocumentMoniker": "Mes Classe\\DataAcces.cs",
@@ -87,15 +119,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Achat.cs",
-              "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Mes Classe\\Achat.cs",
-              "RelativeDocumentMoniker": "Mes Classe\\Achat.cs",
-              "ToolTip": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Mes Classe\\Achat.cs",
-              "RelativeToolTip": "Mes Classe\\Achat.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "Apropot.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Apropot.cs",
+              "RelativeDocumentMoniker": "Apropot.cs",
+              "ToolTip": "C:\\Users\\Anelka MD\\Documents\\GestionVenteApp\\Apropot.cs [Conception]",
+              "RelativeToolTip": "Apropot.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T09:19:24.029Z"
+              "WhenOpened": "2024-07-07T15:15:34.341Z",
+              "EditorCaption": " [Conception]"
             }
           ]
         }
