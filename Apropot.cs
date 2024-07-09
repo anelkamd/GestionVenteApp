@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace GestionVenteApp
 {
-    public partial class Apropot : Form
+    public partial class FrmApropot : Form
     {
-        public Apropot()
+        public FrmApropot()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmApropot_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

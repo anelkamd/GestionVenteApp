@@ -1,6 +1,6 @@
 ﻿namespace GestionVenteApp
 {
-    partial class Article
+    partial class frmArticle
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            tPU = new TextBox();
+            tQT = new TextBox();
+            txDesignation = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -39,15 +39,13 @@
             button2 = new Button();
             button3 = new Button();
             pictureBox1 = new PictureBox();
-            dataGridView1 = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Designation = new DataGridViewTextBoxColumn();
-            PU = new DataGridViewTextBoxColumn();
-            QT = new DataGridViewTextBoxColumn();
+            dgArticles = new DataGridView();
             groupBox1 = new GroupBox();
             pictureBox2 = new PictureBox();
+            label5 = new Label();
+            tCode = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgArticles).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -58,33 +56,34 @@
             button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Poppins Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(29, 485);
+            button1.Location = new Point(29, 522);
             button1.Name = "button1";
             button1.Size = new Size(124, 39);
             button1.TabIndex = 0;
             button1.Text = "Ajouter";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // textBox1
+            // tPU
             // 
-            textBox1.Location = new Point(181, 121);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(316, 31);
-            textBox1.TabIndex = 2;
+            tPU.Location = new Point(181, 121);
+            tPU.Name = "tPU";
+            tPU.Size = new Size(316, 31);
+            tPU.TabIndex = 2;
             // 
-            // textBox2
+            // tQT
             // 
-            textBox2.Location = new Point(159, 168);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(338, 31);
-            textBox2.TabIndex = 3;
+            tQT.Location = new Point(159, 168);
+            tQT.Name = "tQT";
+            tQT.Size = new Size(338, 31);
+            tQT.TabIndex = 3;
             // 
-            // textBox3
+            // txDesignation
             // 
-            textBox3.Location = new Point(181, 77);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(316, 31);
-            textBox3.TabIndex = 4;
+            txDesignation.Location = new Point(181, 77);
+            txDesignation.Name = "txDesignation";
+            txDesignation.Size = new Size(316, 31);
+            txDesignation.TabIndex = 4;
             // 
             // label1
             // 
@@ -133,7 +132,7 @@
             button2.Cursor = Cursors.Hand;
             button2.Font = new Font("Poppins Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(289, 485);
+            button2.Location = new Point(289, 522);
             button2.Name = "button2";
             button2.Size = new Size(124, 39);
             button2.TabIndex = 9;
@@ -147,7 +146,7 @@
             button3.Cursor = Cursors.Hand;
             button3.Font = new Font("Poppins Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.White;
-            button3.Location = new Point(159, 485);
+            button3.Location = new Point(159, 522);
             button3.Name = "button3";
             button3.Size = new Size(124, 39);
             button3.TabIndex = 10;
@@ -165,49 +164,21 @@
             pictureBox1.TabIndex = 11;
             pictureBox1.TabStop = false;
             // 
-            // dataGridView1
+            // dgArticles
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Designation, PU, QT });
-            dataGridView1.Location = new Point(39, 37);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(665, 196);
-            dataGridView1.TabIndex = 12;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Code Article";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            Column1.Width = 150;
-            // 
-            // Designation
-            // 
-            Designation.HeaderText = "Designation";
-            Designation.MinimumWidth = 8;
-            Designation.Name = "Designation";
-            Designation.Width = 150;
-            // 
-            // PU
-            // 
-            PU.HeaderText = "Prix Unitaire";
-            PU.MinimumWidth = 8;
-            PU.Name = "PU";
-            PU.Width = 150;
-            // 
-            // QT
-            // 
-            QT.HeaderText = "Quantites";
-            QT.MinimumWidth = 8;
-            QT.Name = "QT";
-            QT.Width = 150;
+            dgArticles.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgArticles.Location = new Point(39, 37);
+            dgArticles.Name = "dgArticles";
+            dgArticles.RowHeadersWidth = 62;
+            dgArticles.Size = new Size(665, 196);
+            dgArticles.TabIndex = 12;
+            dgArticles.CellContentClick += dataGridView1_CellContentClick;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(dataGridView1);
+            groupBox1.Controls.Add(dgArticles);
             groupBox1.Font = new Font("Poppins", 6F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(29, 222);
+            groupBox1.Location = new Point(29, 262);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(744, 252);
             groupBox1.TabIndex = 13;
@@ -224,11 +195,30 @@
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
             // 
-            // Article
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Poppins Medium", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(29, 207);
+            label5.Name = "label5";
+            label5.Size = new Size(77, 31);
+            label5.TabIndex = 15;
+            label5.Text = "Code :";
+            // 
+            // tCode
+            // 
+            tCode.Location = new Point(112, 209);
+            tCode.Name = "tCode";
+            tCode.Size = new Size(385, 31);
+            tCode.TabIndex = 16;
+            // 
+            // frmArticle
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 541);
+            ClientSize = new Size(800, 577);
+            Controls.Add(tCode);
+            Controls.Add(label5);
             Controls.Add(pictureBox2);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
@@ -238,15 +228,16 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txDesignation);
+            Controls.Add(tQT);
+            Controls.Add(tPU);
             Controls.Add(button1);
-            Name = "Article";
+            Name = "frmArticle";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Article";
+            Load += frmArticle_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgArticles).EndInit();
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
@@ -256,9 +247,9 @@
         #endregion
 
         private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox tPU;
+        private TextBox tQT;
+        private TextBox txDesignation;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -266,12 +257,10 @@
         private Button button2;
         private Button button3;
         private PictureBox pictureBox1;
-        private DataGridView dataGridView1;
+        private DataGridView dgArticles;
         private GroupBox groupBox1;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Designation;
-        private DataGridViewTextBoxColumn PU;
-        private DataGridViewTextBoxColumn QT;
         private PictureBox pictureBox2;
+        private Label label5;
+        private TextBox tCode;
     }
 }

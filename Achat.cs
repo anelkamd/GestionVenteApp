@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GestionVenteApp
 {
-    public partial class Achat : Form
+    public partial class FrmAchat : Form
     {
-        public Achat()
+        public FrmAchat()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@ namespace GestionVenteApp
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmAchat_Load(object sender, EventArgs e)
         {
 
         }

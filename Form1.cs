@@ -1,4 +1,5 @@
 using GestionVenteApp.Mes_Classe;
+using Microsoft.Data.SqlClient;
 
 namespace GestionVenteApp
 {
@@ -16,7 +17,7 @@ namespace GestionVenteApp
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Client frm = new Client();
+            frmClient frm = new frmClient();
             frm.Show();
         }
 
@@ -32,13 +33,13 @@ namespace GestionVenteApp
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Article frm = new Article();
+            frmArticle frm = new frmArticle();
             frm.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Achat frm = new Achat();
+            FrmAchat frm = new FrmAchat();
             frm.Show();
         }
 
@@ -58,7 +59,7 @@ namespace GestionVenteApp
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Apropot frm = new Apropot();
+            FrmApropot frm = new FrmApropot();
             frm.Show();
         }
     }

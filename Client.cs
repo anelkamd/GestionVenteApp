@@ -10,18 +10,23 @@ using System.Windows.Forms;
 
 namespace GestionVenteApp
 {
-    public partial class Client : Form
+    public partial class frmClient : Form
     {
-        public Client()
+        public frmClient()
         {
             InitializeComponent();
         }
 
-       
+
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void frmClient_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

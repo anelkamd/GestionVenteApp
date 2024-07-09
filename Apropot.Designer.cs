@@ -1,6 +1,6 @@
 ﻿namespace GestionVenteApp
 {
-    partial class Apropot
+    partial class FrmApropot
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Apropot));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmApropot));
             label1 = new Label();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
@@ -70,6 +70,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(807, 150);
             panel1.TabIndex = 2;
+            panel1.Paint += panel1_Paint;
             // 
             // pictureBox1
             // 
@@ -204,7 +205,7 @@
             pictureBox6.TabIndex = 7;
             pictureBox6.TabStop = false;
             // 
-            // Apropot
+            // FrmApropot
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -216,9 +217,10 @@
             Controls.Add(pictureBox1);
             Controls.Add(panel1);
             Controls.Add(label1);
-            Name = "Apropot";
+            Name = "FrmApropot";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "A Propos";
+            Load += FrmApropot_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

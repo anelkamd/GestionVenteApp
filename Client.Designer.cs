@@ -1,6 +1,6 @@
 ﻿namespace GestionVenteApp
 {
-    partial class Client
+    partial class frmClient
     {
         /// <summary>
         /// Required designer variable.
@@ -217,7 +217,7 @@
             button2.Text = "Enregistrer";
             button2.UseVisualStyleBackColor = false;
             // 
-            // Client
+            // frmClient
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -237,9 +237,10 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label1);
-            Name = "Client";
+            Name = "frmClient";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Client";
+            Load += frmClient_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

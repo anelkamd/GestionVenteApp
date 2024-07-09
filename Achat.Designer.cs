@@ -1,6 +1,6 @@
 ﻿namespace GestionVenteApp
 {
-    partial class Achat
+    partial class FrmAchat
     {
         /// <summary>
         /// Required designer variable.
@@ -208,7 +208,7 @@
             button2.Text = "Annuler l'Achat";
             button2.UseVisualStyleBackColor = false;
             // 
-            // Achat
+            // FrmAchat
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -230,9 +230,10 @@
             Controls.Add(label2);
             Controls.Add(dateTimePicker1);
             Controls.Add(label1);
-            Name = "Achat";
+            Name = "FrmAchat";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Achat";
+            Load += FrmAchat_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

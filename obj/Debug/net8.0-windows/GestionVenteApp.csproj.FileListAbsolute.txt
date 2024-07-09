@@ -66,3 +66,7 @@ C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVen
 C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionV.1A7A41D2.Up2Date
 C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.Apropot.resources
 C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.sourcelink.json
+C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.FrmAchat.resources
+C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.FrmApropot.resources
+C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.frmArticle.resources
+C:\Users\Anelka MD\Documents\GestionVenteApp\obj\Debug\net8.0-windows\GestionVenteApp.frmClient.resources

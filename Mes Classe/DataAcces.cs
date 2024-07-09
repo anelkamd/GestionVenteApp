@@ -10,7 +10,7 @@ namespace GestionVenteApp.Mes_Classe
 {
     internal class DataAcces
     {
-        SqlConnection conn = null;
+        public SqlConnection conn = null;
         String connectionString = "Data Source=ANELKA-MD; Initial Catalog=Gestion_Vente_App; User ID=Anelka; Password=26355217; Encrypt=false";
         public bool OpenConnection() 
         {
@@ -23,6 +23,13 @@ namespace GestionVenteApp.Mes_Classe
             catch (Exception ex)
             {
                 return false;
+            }
+        }
+        public void CloseConnection()
+        {
+            if (conn != null)
+            {
+                conn.Close();
             }
         }
     }
